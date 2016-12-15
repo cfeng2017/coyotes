@@ -1,30 +1,29 @@
 #!/usr/bin/env bash
 
-cd /data/github/coyotes
-
-cat README.md > VERSION
+cd /data/github/coyotes/
+cat ./README.md > VERSION
 echo $(date) >> VERSIO
-cat README.md >> VERSION
-cat README.md >> VERSION
+cat ./README.md >> VERSION
+cat ./README.md >> VERSION
 echo $(date) >> VERSION
-cat README.md >> VERSION
-cat README.md >> VERSION
+cat ./README.md >> VERSION
+cat ./README.md >> VERSION
 echo $(date) >> VERSION
-cat README.md >> VERSION
-cat README.md >> VERSION
+cat ./README.md >> VERSION
+cat ./README.md >> VERSION
 echo $(date) >> VERSION
-cat README.md >> VERSION
-cat README.md >> VERSION
+cat ./README.md >> VERSION
+cat ./README.md >> VERSION
 echo $(date) >> VERSION
-cat README.md >> VERSION
-cat README.md >> VERSION
+cat ./README.md >> VERSION
+cat ./README.md >> VERSION
 echo $(date) >> VERSION
 
-cat VERSION >> VERSION
-cat VERSION >> VERSION
-cat VERSION >> VERSION
-cat VERSION >> VERSION
-cat VERSION >> VERSION
+cat ./VERSION >> VERSION
+cat ./VERSION >> VERSION
+cat ./VERSION >> VERSION
+cat ./VERSION >> VERSION
+cat ./VERSION >> VERSION
 
 git status
 git add --all
