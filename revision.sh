@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd /data/github/coyotes
+
 cat README.md > VERSION
 echo $(date) >> VERSIO
 cat README.md >> VERSION
